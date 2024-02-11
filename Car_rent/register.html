@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <form>
+        <div class="forma">
+            <div class="container">
+                <div class="forma_inner">
+                    <div class="forma_username">
+                        <h1 id="forma_text">Sign In</h1>
+                        <input type = "text"  name = "username" placeholder="username" pattern = "[A-Za-z0-9]{6,}" title = "Логін не может бути меншим за 6 латинських символів." id="input_info">
+                        <input type = "text"  name = "email" placeholder="email" id="input_info">
+                        <input type = "password"  name = "password" placeholder="password" pattern = "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title = "Пароль не може бути меншим за вісім символів і має містити хоча б одну цифру, одну маленьку та одну велику латинську літеру." id="input_info">
+                        <div class="submit"><input type = "submit" value = "submit" id="submit_btn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
